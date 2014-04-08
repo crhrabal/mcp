@@ -15,9 +15,10 @@ Setting up the environment:
 * $ git config --global core.editor emacs
 * Visit github and fork https://github.com/dkrovich/mcp
 * mkdir rails_projects
-* cd rails_projects && mkdir mcp
+* cd rails_projects
 * git clone https://github.com/username/mcp.git
-* cd mcprails
+* cd mcp/mcprails
+* bundle install
 * rails server
 
 If all goes as expected WEBRick will fire up and your rails app will be running on port 3000.
